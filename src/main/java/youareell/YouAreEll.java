@@ -25,7 +25,7 @@ public class YouAreEll {
         this.hello();
         boolean done = false;
         while (!done) {
-            Command cmd = Command.getCommand("Z?");
+            Command cmd = Command.getCommand("Z?"); //Why?
             if (cmd.isIdCmd()) {
                 this.idctrl.doCommand(cmd);
                 continue;
